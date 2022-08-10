@@ -110,7 +110,7 @@ function App() {
       "Content-Type": "application, json",
     };
     const apiResponse = await fetch(
-      "https://hxk1bvw597.execute-api.us-west-2.amazonaws.com/v2/read",
+      "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v0/read",
       { headers }
     );
     const apiResponseJSON = await apiResponse.json();
@@ -126,7 +126,7 @@ function App() {
         "Content-Type": "application, json",
       };
       const apiResponse = await fetch(
-        "https://hxk1bvw597.execute-api.us-west-2.amazonaws.com/v2/read",
+        "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v0/read",
         { headers }
       );
       const apiResponseJSON = await apiResponse.json();
