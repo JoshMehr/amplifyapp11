@@ -110,7 +110,7 @@ function App() {
       "Content-Type": "application, json",
     };
     const apiResponse = await fetch(
-      "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v0/read",
+      "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v1/read",
       { headers }
     );
     const apiResponseJSON = await apiResponse.json();
@@ -126,7 +126,7 @@ function App() {
         "Content-Type": "application, json",
       };
       const apiResponse = await fetch(
-        "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v0/read",
+        "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v1/read",
         { headers }
       );
       const apiResponseJSON = await apiResponse.json();
@@ -165,7 +165,7 @@ function App() {
     };
     // make API call with parameters and use promises to get response
     await fetch(
-      "https://hxk1bvw597.execute-api.us-west-2.amazonaws.com/v0/put",
+      "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v1/put",
       requestOptions
     )
       .then((response) => response.text())
@@ -200,7 +200,7 @@ function App() {
     };
     // make API call with parameters and use promises to get response
     await fetch(
-      "https://hxk1bvw597.execute-api.us-west-2.amazonaws.com/v1/delete",
+      "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v1/delete",
       requestOptions
     )
       .then((response) => response.text())
@@ -229,7 +229,7 @@ function App() {
       };
       // make API call with parameters and use promises to get response
       await fetch(
-        "https://hxk1bvw597.execute-api.us-west-2.amazonaws.com/v4/edit",
+        "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v1/edit",
         requestOptionsCustomer
       )
         .then((response) => response.text())
@@ -248,7 +248,7 @@ function App() {
       };
       // make API call with parameters and use promises to get response
       await fetch(
-        "https://hxk1bvw597.execute-api.us-west-2.amazonaws.com/v4/edit",
+        "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v1/edit",
         requestOptionsService
       )
         .then((response) => response.text())
@@ -267,7 +267,7 @@ function App() {
       };
       // make API call with parameters and use promises to get response
       await fetch(
-        "https://hxk1bvw597.execute-api.us-west-2.amazonaws.com/v4/edit",
+        "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v1/edit",
         requestOptionsClaim
       )
         .then((response) => response.text())
@@ -286,7 +286,7 @@ function App() {
       };
       // make API call with parameters and use promises to get response
       await fetch(
-        "https://hxk1bvw597.execute-api.us-west-2.amazonaws.com/v4/edit",
+        "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v1/edit",
         requestOptionsWinloss
       )
         .then((response) => response.text())
@@ -305,7 +305,7 @@ function App() {
       };
       // make API call with parameters and use promises to get response
       await fetch(
-        "https://hxk1bvw597.execute-api.us-west-2.amazonaws.com/v4/edit",
+        "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v1/edit",
         requestOptionsPriority
       )
         .then((response) => response.text())
@@ -326,7 +326,7 @@ function App() {
       };
       // make API call with parameters and use promises to get response
       await fetch(
-        "https://hxk1bvw597.execute-api.us-west-2.amazonaws.com/v4/edit",
+        "https://qf9iv4xg4d.execute-api.us-west-2.amazonaws.com/v1/edit",
         requestOptionsServiceteam
       )
         .then((response) => response.text())
